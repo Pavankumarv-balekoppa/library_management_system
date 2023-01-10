@@ -1,0 +1,35 @@
+.booklist{
+    /* margin-top: -24px; */
+    background-color: white;
+}
+.books{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 120px;
+}
+.list{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 280px;
+    margin: 20px;
+    padding: 0px 20px;
+}
+.amazon{
+    display: flex;
+    width: 900px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+}
+.discrip{
+    margin-left: 100px;
+}
+.img{
+    background-color: rgb(222, 237, 232);
+    border-radius: 10px 0px 0px 10px;
+}
+#booklist{
+    margin: 10px 30px;
+    height: 250px;
+    /* border-radius: 10px 0px 0px 0px; */
+}

@@ -1,0 +1,41 @@
+.adduser{
+    background-color: rgb(255, 255, 255,0.6);
+    width: 400px;
+    height: 400px;
+    margin: 150px 450px;
+    border-radius: 10px;
+}
+.adduser input{
+    margin: 0px 0px 10px 0px;
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+}
+.adduser button{
+    margin: 0px 0px 10px;
+    width: 250px;
+    padding: 5px 0px;
+    background-color: green;
+    color: white;
+}
+
+.addbooks{
+    background-color:rgb(255, 255, 255,0.6);
+    width: 600px;
+    height: 500px;
+    margin: 80px 400px;
+    border-radius: 10px;
+}
+.addbooks input,textarea{
+    margin: 0px 0px 10px 0px;
+    width: 400px;
+    height: 25px;
+    border-radius: 5px;
+}
+.addbooks button{
+    margin: 0px 0px 10px;
+    width: 250px;
+    padding: 5px 0px;
+    background-color: green;
+    color: white;
+}

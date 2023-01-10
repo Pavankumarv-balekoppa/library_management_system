@@ -1,0 +1,36 @@
+body{
+    background-color: white;
+}
+#login{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    margin: 100px 450px;
+    border-radius: 30px;
+    /* background-color: rgb(21, 21, 89); */
+}
+#h1{
+    margin-bottom: 0px;
+    color: green;
+}
+.form_input{
+    margin-top: 50px;
+}
+.form_input input{
+    width: 300px;
+    margin: 10px 0px;
+    padding: 8px;
+    border-radius: 10px;
+}
+.form_input button{
+    margin-top: 20px;
+    padding: 6px;
+    width: 300px;
+    /* border-radius: 10px; */
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+}
+.form_input button:hover{
+    background-color: green;
+}
