@@ -48,7 +48,7 @@ let a=[]
                 <input type="number" required placeholder="enter the number pages" value={pageCount} onChange={(e) => setpageCount(e.target.value)} /><br />
                 <textarea type="text" required  placeholder="enter the  shortdisc" value={shortDescription} onChange={(e) => setshortDescription(e.target.value)} /><br />
                 <textarea type="text" required placeholder="enter the longdisc" value={longDescription} onChange={(e) => setlongDescription(e.target.value)} /><br />
-                <input type="file" required placeholder="enter the number thumblin" value={thumbnailUrl} onChange={(e) => setthumbnailUrl(e.target.value)} /><br />
+                <input type="text" required placeholder="enter the number thumblin" value={thumbnailUrl} onChange={(e) => setthumbnailUrl(e.target.value)} /><br />
                 <button type="submit">Submit</button><br />
                 <button type="reset" onClick={reset}>Reset</button>
             </form>
