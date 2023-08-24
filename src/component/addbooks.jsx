@@ -20,7 +20,8 @@ let a=[]
         let data = { title, authors, categories , pageCount,longDescription,shortDescription,thumbnailUrl}
         console.log(data);
         //posting to server
-        fetch('http://localhost:4000/books',
+        // fetch('http://localhost:4000/books',
+        fetch('https://pavanallprojectdata.onrender.com/books',
             {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },

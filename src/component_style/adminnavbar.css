@@ -2,7 +2,9 @@
 {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(2, 2, 202);
+    /* background-color: rgb(2, 2, 202); */
+    /* background-color: green; */
+    background-image:linear-gradient(green,rgb(32, 32, 32)) ;
     height: 60px;
     position:fixed;
     width: 1370px;
@@ -22,4 +24,16 @@
 .nav{
     margin-top: 10px;
     margin-right: 30px;
+}
+.adminnavbar a:hover{
+    border: 2px solid black;
+    padding: 2px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 10px 1px black;
+    /* background-color: white;
+    color: green;
+    font-weight: bold; */
+}
+#org2{
+    background-image:linear-gradient(orange,rgb(49, 49, 49)) ;
 }

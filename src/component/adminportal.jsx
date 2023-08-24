@@ -6,6 +6,7 @@ import Booklist from "./booklist";
 import Adduser from "./adduser";
 import Addbooks from "./addbooks";
 import Readbook from "./readbook";
+import PageNotFound from "../Pagenotfound";
 
 const Adminportal = () => {
     return ( 
@@ -18,6 +19,7 @@ const Adminportal = () => {
                 <Route path="/booklist" element={<Booklist/>}/>
                 <Route path="/booklist/:id" element={<Readbook/>}/>
                 <Route path="/userlist" element={<Userlist/>}/>
+                <Route path='*' element={<PageNotFound/>}/>
             </Routes>
         </div>
      );

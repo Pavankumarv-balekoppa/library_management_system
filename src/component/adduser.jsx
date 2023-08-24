@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import '../component_style/addbooks.css'
 
 const Adduser = () => {
+    let path=useRef('')
     let[name,setname]=useState("")  
     let[age,setage]=useState("")
     let[phonenumber,setphone]=useState("")
@@ -13,8 +14,8 @@ const Adduser = () => {
     let handlesubmit=(e)=>{
         e.preventDefault()
         let data={name,age,phonenumber,email}
-        console.log(data);
-        fetch('http://localhost:4000/users',
+        // fetch('http://localhost:4000/users',
+        fetch('https://pavanallprojectdata.onrender.com/users',
         {
             method:'POST',
             headers:{'Content-Type':'application/json'},
@@ -39,6 +40,14 @@ const Adduser = () => {
             <button type="submit">Submit</button><br />
             <button type="reset" onClick={()=>reset()}>Reset</button><br /><br />
         </form>
+        {/* <form action="" align='center' onSubmit={handlesubmit}>
+            <input type="text" required placeholder="enter the name" ref={path} /><br />
+            <input type="number" min='1' required placeholder="enter the age" ref={path} /><br />
+            <input type="tel" minLength='10' maxLength='10' required placeholder="enter tha phone" ref={path} /><br />
+            <input type="email" placeholder="enter tha email" required ref={path} /><br /><br />
+            <button type="submit">Submit</button><br />
+            <button type="reset" onClick={()=>reset()}>Reset</button><br /><br />
+        </form> */}
     </div>
       );
 }

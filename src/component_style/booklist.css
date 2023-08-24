@@ -1,7 +1,7 @@
-.booklist{
-    /* margin-top: -24px; */
+/* .booklist{
+    margin-top: -24px;
     background-color: white;
-}
+} */
 .books{
     display: flex;
     flex-wrap: wrap;
@@ -11,8 +11,14 @@
     border: 1px solid black;
     border-radius: 10px;
     width: 280px;
+    /* width: 320px; */
+    height: 300px;
     margin: 20px;
-    padding: 0px 20px;
+    padding: 0px 20px;  
+    background-color: rgb(248, 245, 245,0.7);
+}
+.list h1{
+    margin-top: -40px;
 }
 .amazon{
     display: flex;
@@ -20,6 +26,7 @@
     border: 1px solid black;
     border-radius: 10px;
     margin: 20px;
+    background-color: rgb(248, 245, 245,0.7);
 }
 .discrip{
     margin-left: 100px;
@@ -32,4 +39,11 @@
     margin: 10px 30px;
     height: 250px;
     /* border-radius: 10px 0px 0px 0px; */
+}
+.readbookbutton{
+    padding: 7px;
+    background-color: red;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
 }

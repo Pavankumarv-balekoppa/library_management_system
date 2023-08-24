@@ -4,9 +4,12 @@ const Userlist = () => {
     let[user,setuser]=useState([])
     useEffect(()=>{
         let fecthing=async()=>{
-            let response=await fetch('http://localhost:4000/users')
-            let data=await response.json()
+            let response=await fetch('https://pavanallprojectdata.onrender.com/users')
+            let data = await response.json()
             setuser(data)
+            // let response=await fetch('http://localhost:4000/users')
+            // let data=await response.json()
+            // setuser(data)
         }
         fecthing()
     },[])
@@ -19,7 +22,7 @@ const Userlist = () => {
             <h1 align="center">user list :  {user.length}</h1>
             <div className="books">
                 {user.map(x=>(
-                    <div className="list">
+                    <div className="list" >
                     <h1>Name : {x.name}</h1>
                     <h3>Age :{x.age}</h3>
                     <h3>Phone :{x.phonenumber}</h3>

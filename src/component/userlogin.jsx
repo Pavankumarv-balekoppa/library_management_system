@@ -24,7 +24,7 @@ const Userlogin = () => {
     return ( 
         <div id="login" className="userlogin">
         <div className="form container card mt-5 pt-3">
-            <h1 id="h1">User Login</h1>
+            <h1 id="org">User Login</h1>
             <div className="form_input p-5">
                 <form onSubmit={login}>
                     <div className="email">
@@ -33,7 +33,7 @@ const Userlogin = () => {
                     <div className="password">
                         <input type="password" required value={password} onChange={(e)=>setpassword(e.target.value)} placeholder="enter password" className="form-control" />
                     </div>
-                    <button class="btn btn-primary">LOGIN</button>
+                    <button id="org1" class="btn btn-primary">LOGIN</button>
                 </form>
             </div>
         </div>

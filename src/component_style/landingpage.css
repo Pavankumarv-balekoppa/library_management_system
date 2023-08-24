@@ -1,10 +1,12 @@
 body{
-    /* background-color: aqua; */
-    background-image: url("https://www.stallionglobal.com/uploads/links/Title_68.jpg");
+    /* background-image: url("https://www.stallionglobal.com/uploads/links/Title_68.jpg"); */
     /* background-image: url("/public/images/tiny.webp"); */
+    /* background-image: url("/public/images/22.jpg"); */
+    background-image: url("/public/images/16.jpg");
     background-position: center;
     background-size: cover;
     height: 100vh;
+    background-attachment: fixed;
     /* background-repeat: no-repeat; */
 }
 h1{
@@ -12,7 +14,7 @@ h1{
 }
 .selectlogintype
 {
-background-color: white;
+background-color: rgb(245, 243, 243,0.8);
 width: 700px;
 height: 350px;
 margin-left: 300px;
@@ -27,10 +29,10 @@ margin-top: 180px;
    padding: 3px;
 }
 #b1{
-    border : 1px solid orange;
+    border : 1px solid green;
 }
 #b2{
-    border : 1px solid green;
+    border : 1px solid orange;
 }
 .selectlogintype img{
     width: 90px;
@@ -40,8 +42,9 @@ margin-top: 180px;
 }
 
 #b1:hover{
-    background-color: orange;
+    background-color: green;
+    
 }
 #b2:hover{
-    background-color: green;
+    background-color: orange;
 }

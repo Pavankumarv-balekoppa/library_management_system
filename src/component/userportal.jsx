@@ -1,8 +1,9 @@
 import { Route, Routes } from "react-router-dom";
+import PageNotFound from "../Pagenotfound";
 import Booklist from "./booklist";
+import MyCharts from "./chart";
 import Readbook from "./readbook";
 import Userdashbord from "./userdashbord";
-import Userlist from "./userlist";
 import Usernavbar from "./usernavbar";
 
 const Userportal = () => {
@@ -13,7 +14,8 @@ const Userportal = () => {
                 <Route path="/" element={<Userdashbord/>}/>
                 <Route path="/booklist" element={<Booklist/>}/>
                 <Route path="/booklist/:id" element={<Readbook/>}/>
-                <Route path="/userlist" element={<Userlist/>}/>
+                <Route path="/chart" element={<MyCharts/>}/>
+                <Route path='*' element={<PageNotFound/>}/>
             </Routes>
         </div>
      );

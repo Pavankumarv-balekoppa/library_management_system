@@ -1,0 +1,46 @@
+.im{
+    /* background-color: aqua; */
+    /* background-image:url("/public/images/images.jpg"); */
+    /* background-image:url("/public/images/parrot.jpg"); */
+    background-image:url("/public/images/green.jpg");
+    height: 250px;
+    width: 800px;
+    margin: 150px 300px;
+    background-size: cover;
+}
+.admin1{
+    background-color: rgb(250, 246, 246,0.8);
+    width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0px 150px;
+    margin-top: 70px;
+}
+.admin2{
+    background-color: rgb(250, 246, 246,0.8);
+    width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0px 150px;
+    margin-top: 70px;
+}
+.admin3{
+    background-color: rgb(250, 246, 246,0.7);
+    width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0px 150px;
+    margin-top: 70px;
+}
+.admin4{
+    background-color: rgb(250, 246, 246,0.7);
+    width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0px 150px;
+    margin-top: 70px;
+}
+#hh{
+    margin-top: -45px;
+    color: green;
+}
