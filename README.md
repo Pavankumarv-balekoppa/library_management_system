@@ -1,3 +1,9 @@
+# Deploy status badge
+This image automatically updates to reflect the current state of your latest production deploy. 
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/586ef43e-a337-4796-8c05-0535681d1e35/deploy-status)](https://app.netlify.com/sites/pavan-library-management-system/deploys)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

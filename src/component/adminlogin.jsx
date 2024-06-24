@@ -5,17 +5,16 @@ import '../component_style/adminlogin.css'
 const Adminlogin = () => {
     let [email, setemail] = useState("")
     let [password, setpassword] = useState("")
-    let nevigate=useNavigate()
+    let nevigate = useNavigate()
 
     let login = (e) => {
         e.preventDefault();
-        let data={email,password}
+        let data = { email, password }
         // console.log(data);
-        if(email=="admin@gmail.com" && password=='0000')
-        {
+        if (email === "admin@gmail.com" && password === '0000') {
             nevigate('/admin/')
         }
-        else{
+        else {
             alert('Invalid credential')
         }
 

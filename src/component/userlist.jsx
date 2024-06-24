@@ -14,7 +14,7 @@ const Userlist = () => {
         fecthing()
     },[])
     let remove=(y)=>{
-        setuser(user.filter(x=>x.id!=y))
+        setuser(user.filter(x=>x.id!==y))
         alert('confirm to delete')
     }
     return ( 
