@@ -8,7 +8,7 @@ import Usernavbar from "./usernavbar";
 
 const Userportal = () => {
     return ( 
-        <div className="userportal">
+        <div style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
             <Usernavbar/>
             <Routes>
                 <Route path="/" element={<Userdashbord/>}/>

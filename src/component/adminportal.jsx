@@ -10,7 +10,7 @@ import PageNotFound from "../Pagenotfound";
 
 const Adminportal = () => {
     return ( 
-        <div className="adminportal">
+        <div style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
             <Adminnavbar/>
             <Routes>
                 <Route path="/" element={<Admindashbord/>}/>
